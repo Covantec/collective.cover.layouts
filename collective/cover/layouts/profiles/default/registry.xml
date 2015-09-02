@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<registry>
+
+  <!-- collective.cover configuration -->
+  <record name="collective.cover.controlpanel.ICoverSettings.layouts">
+    <value>
+      <element key="PloneGov - Interlegis Portal Modelo">[{"type": "row", "children": [{"data": {"layout-type": "column", "column-size": 16}, "type": "group", "children": [{"tile-type": "collective.cover.carousel", "type": "tile", "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}, {"tile-type": "collective.cover.collection", "type": "tile", "id": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"}, {"tile-type": "collective.cover.richtext", "type": "tile", "id": "cccccccccccccccccccccccccccccccc"}], "roles": ["Manager", "Site Administrator", "Editor"]}]}, {"type": "row", "children": [{"data": {"layout-type": "column", "column-size": 8}, "type": "group", "children": [{"tile-type": "collective.cover.embed", "type": "tile", "id": "dddddddddddddddddddddddddddddddd"}], "roles": ["Manager", "Site Administrator", "Editor"]}, {"data": {"layout-type": "column", "column-size": 8}, "type": "group", "children": [{"tile-type": "collective.cover.embed", "type": "tile", "id": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"}], "roles": ["Manager", "Site Administrator", "Editor"]}]}]</element>
+    </value>
+
+    <value purge="False">
+      <element key="PloneGov - Interlegis Intranet Modelo">[{"type": "row", "children": [{"data": {"layout-type": "column", "column-size": 16}, "type": "group", "children": [{"tile-type": "collective.cover.basic", "type": "tile", "id": "f5510c46bf654fac913ac4fa49f65bb0"}], "roles": ["Manager"]}]}, {"type": "row", "children": [{"data": {"layout-type": "column", "column-size": 8}, "type": "group", "children": [{"tile-type": "collective.cover.collection", "type": "tile", "id": "cdba8ece288b4161974ec3313f0d97c1"}], "roles": ["Manager"]}, {"data": {"layout-type": "column", "column-size": 8}, "type": "group", "children": [{"tile-type": "collective.cover.collection", "type": "tile", "id": "f020abc517f14248882784a601bcd1b6"}], "roles": ["Manager"]}]}, {"type": "row", "children": [{"data": {"layout-type": "column", "column-size": 5}, "type": "group", "children": [{"tile-type": "collective.cover.banner", "type": "tile", "id": "f470e44955744015bf950aa624ad7d9c"}], "roles": ["Manager"]}, {"data": {"layout-type": "column", "column-size": 5}, "type": "group", "children": [{"tile-type": "collective.cover.banner", "type": "tile", "id": "bb51756b91d74b918391670ffe1e201e"}], "roles": ["Manager"]}, {"data": {"layout-type": "column", "column-size": 5}, "type": "group", "children": [{"tile-type": "collective.cover.banner", "type": "tile", "id": "f66550a735804fe2b6b1b01bcad119b5"}], "roles": ["Manager"]}]}]</element>
+    </value>
+  </record>
+
+</registry>
