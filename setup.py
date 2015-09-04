@@ -8,7 +8,7 @@ long_description = (
     open(os.path.join('docs', 'HISTORY.rst')).read()
 )
 
-setup(name='collective.cover.layouts',
+setup(name='covantec.cover.layouts',
       version=version,
       description=description,
       long_description=long_description,
@@ -18,13 +18,13 @@ setup(name='collective.cover.layouts',
         "Framework :: Plone",
         "Programming Language :: Python",
         ],
-      keywords='generic blogs news events e-commerce website layouts collective cover package',
+      keywords='generic blogs news events e-commerce website layouts covantec cover package',
       author='Leonardo J. Caballero G.',
       author_email='leonardocaballero@gmail.com',
-      url='https://github.com/Covantec/collective.cover.layouts',
+      url='https://github.com/Covantec/covantec.cover.layouts',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['collective', 'collective.cover'],
+      namespace_packages=['covantec', 'covantec.cover'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

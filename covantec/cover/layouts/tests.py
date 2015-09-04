@@ -8,7 +8,7 @@ from Products.PloneTestCase.layer import PloneSite
 # from zope.component import testing
 # from zope.testing import doctestunit
 
-import collective.cover.layouts
+import covantec.cover.layouts
 import unittest
 
 ptc.setupPloneSite()
@@ -20,7 +20,7 @@ class TestCase(ptc.PloneTestCase):
         def setUp(cls):
             fiveconfigure.debug_mode = True
             zcml.load_config('configure.zcml',
-                             collective.cover.layouts)
+                             covantec.cover.layouts)
             fiveconfigure.debug_mode = False
 
         @classmethod
@@ -33,21 +33,21 @@ def test_suite():
 
         # Unit tests
         # doctestunit.DocFileSuite(
-        #     'README.txt', package='collective.cover.layouts',
+        #     'README.txt', package='covantec.cover.layouts',
         #     setUp=testing.setUp, tearDown=testing.tearDown),
 
         # doctestunit.DocTestSuite(
-        #     module='collective.cover.layouts.mymodule',
+        #     module='covantec.cover.layouts.mymodule',
         #     setUp=testing.setUp, tearDown=testing.tearDown),
 
 
         # Integration tests that use PloneTestCase
         # ztc.ZopeDocFileSuite(
-        #     'README.txt', package='collective.cover.layouts',
+        #     'README.txt', package='covantec.cover.layouts',
         #     test_class=TestCase),
 
         # ztc.FunctionalDocFileSuite(
-        #     'browser.txt', package='collective.cover.layouts',
+        #     'browser.txt', package='covantec.cover.layouts',
         #     test_class=TestCase),
     ])
 
